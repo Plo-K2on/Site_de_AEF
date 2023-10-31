@@ -1,6 +1,27 @@
 
-h1 {
-    color: aqua;
+header .texte_banniere {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 0px -50px 0px;
+}
+
+header .texte_banniere p {
+    margin: 50px 0px 0px -95px;
+}
+
+header .texte_banniere img {
+    width: 10%;
+    height: 80px;
+
+}
+
+header .img_banniere img {
+    width: 80%;
+    height: 300px;
+    margin: 60px 0 0 70px;
+    border-radius: 25px;
 }
 
 
