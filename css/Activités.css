@@ -1,5 +1,3 @@
-/* Header */
-
 header .logo_texte_banniere {
     display: flex;
     flex-direction: row;
@@ -30,7 +28,7 @@ header .logo_texte_banniere .logo_AEF img{
 header .information{
     width: 20%;
     position: relative;
-    left: 60px;
+    left: 129px;
 }
 
 header .information img{
@@ -52,50 +50,25 @@ header .img_banniere img {
 
 /* Main */
 
-.miniatures {
+main .list_activités{
+    /* float: right; */
+}
+
+main .list_activités img{
+    width: 60%;
     position: relative;
-    margin: -230px 0 0 0;
+    left: 350px;
+    bottom: 190px;
 }
 
-main .miniatures .ligne_1{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px 0 30px 0;
+main .list_activités .text_sans_photo .tarif_description{
+    text-align: center;
+    font-size: x-large;
+    position: relative;
+    bottom: 190px;
+    margin: 0 0 0 110px;
 }
 
-main .miniatures .ligne_2{
-    display: flex;
-    justify-content: space-evenly;
-    margin: -20px 0 40px 0;
-}
-
-main .miniatures img {
-    height: 200px;
-}
-
-main .miniatures .Activitées{
-    margin: 0 -345px 0 0;
-}
-
-main .miniatures .Media{
-    margin: 0 -345px 0 0;
-}
-
-
-/* Responsive */
-@media screen and (max-width: 870px) {
- 
-/* Redimmensionner les images des evenements */
-    
-main .miniatures .Activitées{
-    /* margin: 0 -345px 0 0; */
-    display: flex;
-}
-
-main .miniatures .Media{
-    /* margin: 0 -345px 0 0; */
-    display: flex;
-
-}
-
+main .list_activités .nom_act {
+    font-weight: bold;
 }
