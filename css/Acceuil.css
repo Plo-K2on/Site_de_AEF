@@ -30,7 +30,7 @@ header .logo_texte_banniere .logo_AEF img{
 header .information{
     width: 20%;
     position: relative;
-    left: 60px;
+    left: 129px;
 }
 
 header .information img{
@@ -46,15 +46,12 @@ header .img_banniere img {
     width: 100%;
     height: 515px;
     margin: -20px 0 0 0px;
-    border-radius: 25px;
 }
-
 
 /* Main */
 
 .miniatures {
     position: relative;
-    margin: -230px 0 0 0;
 }
 
 main .miniatures .ligne_1{
@@ -87,15 +84,15 @@ main .miniatures .Media{
  
 /* Redimmensionner les images des evenements */
     
-main .miniatures .Activitées{
-    /* margin: 0 -345px 0 0; */
-    display: flex;
-}
+    main .miniatures .Activitées{
+        /* margin: 0 -345px 0 0; */
+        display: flex;
+    }
 
-main .miniatures .Media{
-    /* margin: 0 -345px 0 0; */
-    display: flex;
+    main .miniatures .Media{
+        /* margin: 0 -345px 0 0; */
+        display: flex;
 
-}
+    }
 
 }

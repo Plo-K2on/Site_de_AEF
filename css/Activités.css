@@ -1,3 +1,5 @@
+/* Header */
+
 header .logo_texte_banniere {
     display: flex;
     flex-direction: row;
@@ -44,31 +46,29 @@ header .img_banniere img {
     width: 100%;
     height: 515px;
     margin: -20px 0 0 0px;
-    border-radius: 25px;
 }
-
 
 /* Main */
-
-main .list_activités{
-    /* float: right; */
-}
 
 main .list_activités img{
     width: 60%;
     position: relative;
     left: 350px;
-    bottom: 190px;
 }
 
 main .list_activités .text_sans_photo .tarif_description{
     text-align: center;
     font-size: x-large;
     position: relative;
-    bottom: 190px;
+    bottom: 50px;
     margin: 0 0 0 110px;
 }
 
 main .list_activités .nom_act {
     font-weight: bold;
+}
+
+/* Responsive */
+@media screen and (max-width: 870px) {
+    
 }

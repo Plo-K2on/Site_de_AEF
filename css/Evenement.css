@@ -15,7 +15,7 @@ header .texte_banniere {
 
 header .texte_banniere a{
     position: relative;
-    right: 170px;
+    right: 220px;
     margin: 0 18px 0px 0;
     color: black;
     text-decoration: none;
@@ -43,13 +43,9 @@ header .img_banniere {
 }
 
 header .img_banniere img {
-    width: 101%;
+    width: 100%;
     height: 515px;
     margin: -20px 0 0 0px;
-    border-radius: 25px;
-    position: absolute;
-    right: -8px;
-    top: 108px;
 }
 
 /* Main */
@@ -57,11 +53,7 @@ header .img_banniere img {
 main .evenement_img_text{
     position: relative;
     margin: 0px 48px 0 60px;
-    top: 580px;
-}
-
-main .evenement_img {
-    /* float:left */
+    top: 10px;
 }
 
 main .evenement_img .PX_img img{
@@ -78,3 +70,7 @@ main .evenement_img .PX_text img{
     margin: 0px -41px 0 0px;
 }
 
+/* Responsive */
+@media screen and (max-width: 870px) {
+    
+}
