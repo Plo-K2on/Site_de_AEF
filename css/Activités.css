@@ -5,12 +5,15 @@ header .logo_texte_banniere {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 0px 0px -43px 0px;
+    margin: 0px 0px -72px 0px;
     position: relative;
 }
 
 header .texte_banniere {
     display: flex;
+    margin: 0 0 0 20px;
+    position: relative;
+    left: 50px;
 }
 
 header .texte_banniere a{
@@ -20,6 +23,14 @@ header .texte_banniere a{
     color: black;
     text-decoration: none;
     font-weight: bold;
+    top: 23px;
+}
+
+header .texte_banniere p{
+    position: relative;
+    right: 228px;
+    bottom: 0px;
+    font-size: larger;
 }
 
 header .logo_texte_banniere .logo_AEF img{
@@ -48,8 +59,6 @@ header .img_banniere img {
     margin: -20px 0 0 0px;
 }
 
-/* Main */
-
 main .list_activités img{
     width: 60%;
     position: relative;
@@ -66,6 +75,14 @@ main .list_activités .text_sans_photo .tarif_description{
 
 main .list_activités .nom_act {
     font-weight: bold;
+}
+
+footer img {
+    width: 91%;
+    height: 280px;
+    position: relative;
+    left: 66px;
+    bottom: 50px;
 }
 
 /* Responsive */
