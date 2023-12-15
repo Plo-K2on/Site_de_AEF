@@ -81,10 +81,6 @@ main .text_presentation {
     width: 60%;
 }
 
-main .savoir_plus {
-    text-align: center;
-}
-
 main .text_miniature{
     text-align: center;
     position: relative;
@@ -94,6 +90,10 @@ main .text_miniature{
 main .text_miniature p{
     font-weight: bolder;
     font-size: xx-large;
+}
+
+main .savoir_plus {
+    text-align: center;
 }
 
 main .nos_services {
@@ -107,7 +107,6 @@ main .nos_services {
 
 .miniatures {
     position: relative;
-    /* right: 85px; */
     top: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -190,7 +189,11 @@ main .maps iframe {
 .FAQ{
     position: relative;
     top: 80px;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 main .text_FAQ{
@@ -205,7 +208,7 @@ main .text_FAQ{
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 10px 0;
-    padding: 10px;
+    padding: 0 0 0 10px;
 }
 
 .reponse {

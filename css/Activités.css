@@ -69,32 +69,76 @@ header .img_banniere img {
     margin: -30px 0 0 0px;
 }
 
-main .list_activités img{
-    width: 60%;
+/* Main */
+
+main .titre_presentation {
+    text-align: center;
     position: relative;
-    left: 310px;
+    top: 20px
 }
 
-main .list_activités .text_sans_photo .tarif_description{
+main .titre_presentation p {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+main .text_presentation {
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(-50%, 2%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    font-size: larger;
+}
+
+main .list_activités {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-left: 35px;
+}
+
+main .list_activités img{
+    position: relative;
+    width: 70%;
+    padding-top: 50px;
+    padding-left: 35px;
+}
+
+main .infos_act {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/* main .list_activités .infos_act button {
+    border-bottom: 5px #ff0000 solid;
+    margin-bottom: 10px;
+} */
+
+main .text_sans_photo .tarif_description{
     text-align: center;
     font-size: x-large;
     position: relative;
-    bottom: 50px;
-    margin: 0 0 0 110px;
 }
 
 main .list_activités .nom_act {
     font-weight: bold;
 }
 
-footer img {
-    width: 91%;
-    height: 280px;
-    position: relative;
-    left: 66px;
-    bottom: 50px;
+main .programmation {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
 }
 
+main .programmation img{
+    width: 50%;
+}
 
 
 /* Responsive */
